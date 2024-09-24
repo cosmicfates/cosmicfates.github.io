@@ -27,6 +27,22 @@
         .stripe5 { background-color: #7BADE2; }
         .stripe6 { background-color: #5049CC; }
         .stripe7 { background-color: #3D1A78; }
+
+        .back-link {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .back-link:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
     </style>
 </head>
 <body>
@@ -39,5 +55,6 @@
         <div class="stripe stripe6"></div>
         <div class="stripe stripe7"></div>
     </div>
+    <a href="index.html" class="back-link">Back to Home</a>
 </body>
 </html>
