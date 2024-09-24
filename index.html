@@ -6,20 +6,17 @@
     <title>Ocean Flag</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-            background-color: #f0f0f0; /* Light background for contrast */
+            overflow: hidden; /* Prevent scrollbars */
         }
         .flag {
-            width: 300px; /* Width of the flag */
-            height: 420px; /* Height of the flag */
-            border: 1px solid #000; /* Optional border for visibility */
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Full height of the viewport */
+            width: 100vw; /* Full width of the viewport */
         }
         .stripe {
-            height: 60px; /* Height of each stripe */
+            flex: 1; /* Distribute space evenly */
         }
         .stripe1 { background-color: #078D70; }
         .stripe2 { background-color: #26CEAA; }
